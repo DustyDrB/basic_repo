@@ -1,15 +1,36 @@
 * {
-	width: 1000px;
 	font-family: "Ubuntu";
 	margin: 0px;
 	padding: 0px;
 }
 #container {
-
+	width: 1000px auto;
+	background-color: #4D5B66;
+	color: #DBDEE0;
+	padding-bottom: 20px;
 }
-	.list {
-
+	h1 {
+		text-align: center;
+		padding-top: 20px;
 	}
+	.list {
+		background-color: #66584D;
+		width: 1000px;
+		display: block;
+		margin-left: 450px;
+		padding-bottom: 20px;
+		border: 2px ridge #DBDEE0;
+	}
+		.list li {
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 10px;
+			border-top: 2px ridge #DBDEE0;
+			text-align: center;
+			list-style-type: none;
+		}
 		img {
-			width: 300px;
+			width: 200px;
+			display: inline-block;
+			margin-left: 400px;
 		}
